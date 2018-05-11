@@ -23,7 +23,7 @@ RUN curl https://static.rust-lang.org/rustup.sh | sh -s -- \
   --with-target=x86_64-unknown-linux-musl \
   --yes \
   --disable-sudo \
-  --revision=1.22.0 && \
+  --revision=1.26.0 && \
   mkdir /.cargo && \
   echo "[build]\ntarget = \"x86_64-unknown-linux-musl\"" > /.cargo/config
 
